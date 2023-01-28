@@ -21,11 +21,8 @@ First, change **.env-example** file's name to **.env**
 ### Installing npm Packages
 **`npm i`** or **`yarn i`**
 
-### Compiling TypeScript Code to Executable JavaScript Code
-**`tsc`**
-
-### Running Code
-**`node index.js`**
+### Compiling TypeScript Code to Executable JavaScript Code and Running Code
+**`npm start`**
 
 ## Publishing Message
 You must send HTTP POST request to **http://localhost:port/**. Request body will transform to message data. For spesifying delay time, you should send delay param with request URL.
